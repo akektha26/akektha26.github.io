@@ -5,7 +5,13 @@
 - 기존 PC용 > 태블릿용 > 모바일용 CSS작업순서를 [모바일용 > 태블릿용 > PC용] 으로 변경작업
 
 #### 20201028(수)
-- 마다솜
+- CSS스타일 적용하는 3가지 방법
+- 1.인라인스타일: 태그안쪽에 속성 사용 예) style="padding:10px"
+- 2.파일안에 style태그사용 예)<style>내부스타일 주기</style>
+- 3.외부CSS파일 지정하기 예)<link href="css파일위치"/>
+- 깃허브 README.md(마크다운 언어)
+- meta데이터: 데이터의 데이터임.(콘텐츠를 설명하는 데이터)
+- 메타태그중 viewport 는 반응형 사이트에서 필수.
 - 반응형사이트 화면설계서_학생용 구글ppt 다운받기(아래 구글링크):
 - https://drive.google.com/file/d/17jXgf7R2BawMt3K9eoxfnnO_8X9yClLZ/view?usp=sharing
 - 반응형사이트 기획서_학생용 구글xlsx 다운받기(아래 구글링크):
