@@ -5,7 +5,7 @@
 - 기존 PC용 > 태블릿용 > 모바일용 CSS작업순서를 [모바일용 > 태블릿용 > PC용] 으로 변경작업
 
 #### 20201028(수)
-
+- 마다솜
 - 반응형사이트 화면설계서_학생용 구글ppt 다운받기(아래 구글링크):
 - https://drive.google.com/file/d/17jXgf7R2BawMt3K9eoxfnnO_8X9yClLZ/view?usp=sharing
 - 반응형사이트 기획서_학생용 구글xlsx 다운받기(아래 구글링크):
