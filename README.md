@@ -21,6 +21,23 @@
 - 반응형사이트 기획서_학생용 구글xlsx 다운받기(아래 구글링크):
 - https://drive.google.com/file/d/1dC2RMqDqNeEFtr-r-dvcsKk0YwPjk0Xy/view?usp=sharing
 
+#### 20201029(목)
+- img는 가로크기를 지정하면 세로크기는 자동으로 조정.
+- j쿼리: 네이티브 자바스크립트 단축키워드로 사용.
+- j쿼리 코어를 가져와서 사용.
+- 자바스크립트 콜백함수: (아래)
+- 이름이 없는 함수.
+- 자동실행되는 함수. 기본함수는 이름을 호출해야지 
+실행이 되지만, 콜백함수는 호출없이 실행됨.
+- nav태그: html5 추가된 태그.
+- ul(unorder list)태그 > li(list)태그 ㅣ
+- 네이밍규칙: 카멜표기(낙타등) closePop
+- 사각형 영역 크기: box-sizing: border-box;
+- 웹접근성: 시각장애인을 위한 코딩추가.
+- 스크린리더 프로그램용 코딩: 예, text-indent:
+- 햄버거메뉴: .openMOgnb--> gnb(global navigation)
+글로벌 네비게이션(전체메뉴)
+ps. page navigation(페이징링크처리)
 #### 20201022(목)
 
 - 소스내용 교육용으로 정리
