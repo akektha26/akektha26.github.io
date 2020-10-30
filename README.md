@@ -22,6 +22,7 @@
 - https://drive.google.com/file/d/1dC2RMqDqNeEFtr-r-dvcsKk0YwPjk0Xy/view?usp=sharing
 
 #### 20201029(목)
+- bbs (pc통신부터 게시판약자 bbs) board system.
 - img는 가로크기를 지정하면 세로크기는 자동으로 조정.
 - j쿼리: 네이티브 자바스크립트 단축키워드로 사용.
 - j쿼리 코어를 가져와서 사용.
@@ -38,6 +39,14 @@
 - 햄버거메뉴: .openMOgnb--> gnb(global navigation)
 글로벌 네비게이션(전체메뉴)
 ps. page navigation(페이징링크처리)
+
+#### 20201030(금)
+- 웹프로그램: 기본은 게시판(아래)
+- CRUD: Create (Insert-자료입력)
+- Read(Select-자료조회)
+- Update(자료수정)
+- Delete(자료삭제)
+
 #### 20201022(목)
 
 - 소스내용 교육용으로 정리
