@@ -75,4 +75,94 @@
     .gnb li + li + li + li a {background:none;}
     .gnb li:last-child a {padding-right:0px;}
     /* //상단로고와 메뉴스타일 */
+    /* 컨테이너 영역 */
+#container{
+	padding-bottom: 20px;
+	width: initial;
+	position: initial;
+}
+/* //컨테이너 영역 */
+/* 슬라이드영역 */
+.main_rolling_mobile{
+	display: none;
+}
+.main_rolling_pc{
+	display: block;
+}
+.visualRoll{
+	position: relative;
+	width: 100%;
+}
+.viewImgList{
+	position: relative;
+	width: 100%;
+}
+ul.viewImgList li {
+	text-align:center;
+	height:550px;
+	line-height:550px;
+	background-size:cover;
+	 /* 영역보다 이미지가 작을때 작동. */
+	 
+	 width: 100%;
+}
+.roll_content a img {
+	display: none;
+}
+li.imglist0 {
+    position: relative;
+    z-index: 50;
+	background: url(../img/maple.jpg) no-repeat;
+}
+li.imglist1{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+	background: url(../img/img_slidecontents02.png) no-repeat;
+
+}
+li.imglist2{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+	background: url(../img/img_slidecontents03.png) no-repeat;
+}
+.roll_content{
+	position: relative;
+}
+.roll_content .roll_txtline{
+	position: absolute;
+	left: 0;
+	bottom: 60px;
+	width: 100%;
+	line-height: 1;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.rollbtnArea{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 25px;
+	z-index: 200;
+}
+.rollingbtn {
+	width:320px; margin:0 auto;
+	text-align:center;
+}
+.rollingbtn li.butt0{
+	margin-left: 10px;
+}
+.rollingbtn li {
+	display: inline-block;
+	margin-left: 5px;
+}
+.rollingbtn li a{
+	vertical-align: top;
+}
+/* //슬라이드영역 */
     /* //테블릿 영역 */
