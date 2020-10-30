@@ -41,6 +41,9 @@
 ps. page navigation(페이징링크처리)
 
 #### 20201030(금)
+- background-size:cover; 영역보다 이미지가 작을때 작동.
+- inherit : 상속(자바에선 extends)
+- @media all=> screen,print
 - 대괄호[배열],중괄호{구현내용},소괄호(매개변수)
 - 16진수(아래) 15인 F까지
 - 0,1....9 A B C D E F

@@ -376,7 +376,7 @@ footer{
 	height: 45px;
 	border-left: none;
 	border-bottom: none;
-	background: url(./img/ico_totop_mo.png) no-repeat center;
+	background: url(../img/ico_totop_mo.png) no-repeat center;
 	background-size: 45px;
 	box-sizing: border-box;
 	text-indent: -9999px;
@@ -427,7 +427,7 @@ footer{
     line-height: 37px;
     padding-bottom: 0;
     padding-left: 45px;
-    background: url(./img/ico_phone_mobtm.png) no-repeat 20px center;
+    background: url(../img/ico_phone_mobtm.png) no-repeat 20px center;
     background-size: 20px;
     color: #fff;
     letter-spacing: -1px;

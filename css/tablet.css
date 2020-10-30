@@ -1,1 +1,78 @@
 @charset "UTF-8";
+@media all and (min-width: 801px){
+    /* 테블릿 영역 */
+    /* 상단로고와 메뉴스타일 */
+    header{
+        height: 113px;
+        }
+    .header_area h1{
+        float: left;
+        padding: 25px 0;
+        padding-left: 20px;
+        width: initial; /* 모바일영역을 다 초기화하는것 */
+        height: initial;
+        text-align: initial;
+    
+    }
+    .header_area h1 a{
+        display: block;
+        width: 270px;
+        height: 71px;
+        background-size: initial !important;
+    }
+    .openMOgnb{
+        display: none;
+    }
+    .header_cont{
+        display: block;
+        float: right;
+        width: 60%;
+        padding-right: 20px;
+        background: none;
+    }
+    .closePop{
+        display: none;
+    }
+    .util{
+        padding: 0;
+        text-align: right;
+        padding-top: 10px;
+    }
+    .util li{
+        float: none;
+        display: inline;
+    }
+    .util li::after{
+        color: #fff;
+    }
+    .util li a{
+        font-size: 14px;
+    }
+    .gnb{
+        float: right;
+        padding-top: 5px;
+        height: initial;
+        border-top: none;
+    }
+    .gnb li{
+        width: initial;
+        text-align: initial;
+        box-sizing: initial;
+        border-bottom: none;
+    }
+    .gnb li:nth-child(2n+1) {
+        border-right:none;
+    }
+    .gnb li a {
+        padding:26px 25px;
+        font-size:18px;
+        height:inherit;
+        line-height:inherit;
+        background:none;
+    }
+    .gnb li + li a {background:none;}
+    .gnb li + li + li a {background:none;}
+    .gnb li + li + li + li a {background:none;}
+    .gnb li:last-child a {padding-right:0px;}
+    /* //상단로고와 메뉴스타일 */
+    /* //테블릿 영역 */
