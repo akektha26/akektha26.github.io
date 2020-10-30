@@ -5,6 +5,8 @@
 	aname('김일국'); //함수호출
 	*/
 	$(document).ready(function(){
+		// 상단으로 바로가기 버튼 클릭 위에 스무스스크롤이라는 자바라이브러리를 가져와 썼기 때문에 가능.
+	$(".to_top a").smoothScroll();
 		//alert('콜백함수 실행');
 		$(".openMOgnb").click(function(){
 			//alert();//디버그용
