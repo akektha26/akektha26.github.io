@@ -47,13 +47,22 @@ function play_w(directw){ //다이렉트 좌우 슬라이드 방향
 
 }
 //여기서 함수 진입(play_w함수명을 호출해서 실행)됩니다. (아래)
-var wwslidingAuto=setTimeout("play_w('right')",3000); //6초후에 play_w함수를 실행.
-
+var wwslidingAuto=setTimeout("play_w('right')",3000); //3초후에 play_w함수를 실행.
+//es5버전용
+/* var wwrollplayhide=setTimeout(function(){
+$(".rollplay").css("display","none");
+},3000); */
+//es7버전용(람다식=에로우 화살표함수사용)
+var wwrollplayhide=setTimeout(() => {
+    $(".rollplay").css("display","none");
+},3000);  
 $(document).ready(function(){
+    //$(".rollplay").css("display","none");
 
 	$(".rollstop a").click(function(){
 		$(this).parent().hide();
         $(".rollplay").css('display','inline-block');
+        
         //하단 진행버튼을 클릭했을때, setTimeout으로 실행시킨 함수 실행을 취소
 		if(wwslidingAuto)clearTimeout(wwslidingAuto);	
 	});

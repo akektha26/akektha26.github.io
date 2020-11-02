@@ -165,4 +165,117 @@ li.imglist2{
 	vertical-align: top;
 }
 /* //슬라이드영역 */
-    /* //테블릿 영역 */
+/* 갤러리 최근게시물 */
+.about_area h2 {
+	padding:55px 0 105px;
+	font-size:40px;
+}
+.about_area h2 b{
+	display: initial;
+	padding-top: initial;
+}
+.place_list{
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+.place_list li:first-child{
+	margin-left: 0;
+}
+.place_list li{
+	float: left;
+	width: 32%;
+	margin-left: 2%;
+	position: relative;
+	top: -50px;
+	padding: initial;
+}
+.place_list li p.txt{
+	padding: 10px 30px 0;
+	line-height: 1.8;
+}
+.place_list li .view {
+	margin-top:20px;
+}
+/* //갤러리 최근게시물 */
+/* 전화상담과 최근공지사항  */
+.appbbs_area {
+	padding:60px 0;
+}
+.appbbs_box {
+	box-sizing:border-box;
+	padding: 0 20px;
+}
+.app_line{
+	display: initial;
+	float: left;
+	width: 66%;
+	box-sizing: border-box;
+	padding: 45px 0;
+	background: url(../img/bg_app.jpg) ;
+	font-size: 0;
+	text-align: center;
+}	
+.app_line a{
+	font-size: 21px;
+	display: inline-block;
+	width: 42.4%;
+	height: 100px;
+	line-height: 100px;
+	box-sizing: border-box;
+	padding-left: 55px;
+	text-align: left;
+	background: rgba(0, 0, 0, 0.3) url(../img/ico_katalk.png) no-repeat 10px 50%;
+	border: 2px solid #fff;
+	color: #fff;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.app_line a + a{
+	margin-right: 0;
+	padding-left: 65px;
+	background:rgba(0,0,0,0.3) url(../img/ico_phone.png) no-repeat 10px 50%;
+}
+.bbs_line{
+	float: right;
+	width: 30%;
+	border-top: none;
+	padding: initial;
+}
+.bbs_line h3{
+	font-size: 26px;
+	font-weight: initial;
+}
+.bbs_line .notice_recent li a{
+	display: block;
+	padding-left: 14px;
+	background: url(../img/ico_bullet.png) no-repeat 0 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* //전화상담과 최근공지사항 */
+/* 푸터영역 */
+footer{
+	padding: initial;
+}
+.foot_area {
+	padding-left:20px;
+	padding-bottom:0px;
+}
+.addr {
+	font-size:13px; 
+	line-height:1.4;
+}
+.br_line {display:initial;}
+.snslink {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: initial;
+    margin: initial;
+}
+.snslink li {margin-left:15px;}
+.quick_list {display:none;}
+
+/* // 푸터영역 */
+/* //테블릿 영역 */
