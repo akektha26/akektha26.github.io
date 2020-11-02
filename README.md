@@ -56,6 +56,12 @@ ps. page navigation(페이징링크처리)
 - Delete(자료삭제)
 
 #### 20201102(월)
+- 커스터마이징(기존 템플릿 수정 필요)
+- 자바스크립트 조건문안에 !ok = not ok
+- 조건: &&==and==x(곱하기), ||==or==+
+- 컴퓨터 0,1
+- 1 && 0 ==1 x 0= 0 =and 모두 만족할때만 true
+- 1 || 0 ==1 + 0= 1 =or 
 - Rest API: Representation Application Programming Interface
 - 원시데이터(Raw데이터-공공데이터)
 앱인터페이스(APInputOutput)에서 받아서, 재가공해서 화면에 뿌려주는 작업
