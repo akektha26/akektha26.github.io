@@ -18,11 +18,12 @@
 	background:rgba(250,100,0,0.85);
 	z-index:100;
 }
+
 .gnb_depth2_1 .submenu_list {
 	box-sizing:border-box;
 	padding-left:484px;
 }
-.gnb_depth2_2 .submenu_list {
+	.gnb_depth2_2 .submenu_list {
 	box-sizing:border-box;
 	padding-left:600px;
 }

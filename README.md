@@ -56,6 +56,10 @@ ps. page navigation(페이징링크처리)
 - Delete(자료삭제)
 
 #### 20201102(월)
+- Rest API: Representation Application Programming Interface
+- 원시데이터(Raw데이터-공공데이터)
+앱인터페이스(APInputOutput)에서 받아서, 재가공해서 화면에 뿌려주는 작업
+(마스크앱, 코로나19환자정보, SNS로그인)
 - 토큰: 네트워크로 전송되는 조각 데이터.
 - 토큰: OAuth2.0인증데이터(SNS로그인)
 - 람다식(코드생략:애로우함수):자바7(x),자바8(o),안드로이드 스튜디오
