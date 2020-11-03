@@ -92,6 +92,14 @@ ps. page navigation(페이징링크처리)
 기획팀(제안서제출)
 
 #### 20201103(화) 
+- 시만텍 웹: 의미있는 태그 사용 == html5사용
+- header,footer,aside,article 웹문서에 의미있는 영역 지정.
+- white-space:nowrap: 예)아래
+-마지막 교시 입
+-니다.
+-만약에 wrap이면(아래)
+-마지막 교시 
+-입니다
 - css 값에 대한 수정: 값이 3개일때 padding:40px(상) 0(좌우) 0(하);
 - vertical(수직정렬): top, middle, bottom
 - horizontal(수평정렬): left, center, right
