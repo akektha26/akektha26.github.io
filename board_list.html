@@ -14,13 +14,171 @@
 <script src="js/jquery.smooth-scroll.min.js"></script>
 <script src="js/main.js"></script>
 <style>
-
+/* 메인상단위치표시영역 */
+.location_area {
+  height: 260px;
+  background: url(./img/img_top2.jpg) no-repeat center bottom / cover;
+}
+.tit_page{
+	padding: 140px 0 0 0;
+	margin: 0 45px;
+	border-bottom: 1px solid #ccc;
+	font: 30px 'Arial Narrow';
+	color: #fff;
+	letter-spacing: 3px;
+	text-align: left;
+}
+.location{
+	display: none;
+}
+ul.page_menu{
+	display: block;
+	padding: 10px 0 0 45px;
+}
+ul.page_menu li{
+	float: left;
+	padding-bottom: 10px;
+}
+ul.page_menu li a.on{
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	background: none;
+}
+ul.page_menu li a {
+  display: block;
+  margin-right: 20px;
+  font-size: 15px;
+  color: #ddd;
+}
+.tit_page .in {
+  font-variant: small-caps; 
+}
+/* //메인상단위치표시영역 */
+/* 게시판리스트 본문영역 */
+.bodytext_area {
+  box-sizing: border-box;
+  padding: 0px;
+}
+.minisrch_form {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.minisrch_form .tbox {
+  padding: 0 5px 0 30px;
+  width: 200px;
+  height: 35px;
+  line-height: 35px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: url(./img/ico_search.png) no-repeat 10px 50%;
+  background-size: 15px;
+}
+.btn_srch {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  height: 35px;
+  font-size: 14px;
+  line-height: 35px;
+  vertical-align: middle;
+  background: #384d75;
+  color: #fff !important;
+}
+.minisrch_form legend{
+	text-indent: -9999px;
+	font-size: 0;
+}
+input::placeholder {
+  color: #999;
+}
+.bbsListTbl {
+  width: 100%;
+  border-top: 2px solid #384d75;
+}
+.bbsListTbl th:nth-child(1) {
+  display: none;
+}
+.bbsListTbl th:nth-child(2) {
+  width: 70%;
+}
+.bbsListTbl th:nth-child(3) {
+  display: none;
+}
+.bbsListTbl th:nth-child(4) {
+  width: 30%;
+}
+.bbsListTbl th {
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0;
+  box-sizing: border-box;
+  height: 45px;
+  background: #fef3fa;
+}
+.bbsListTbl td:nth-child(1) {
+  display: none;
+}
+.bbsListTbl td:nth-child(3) {
+  display: none;
+}
+.bbsListTbl td {
+  text-align: center;
+  line-height: 1.3;
+  border-bottom: 1px solid #ccc;
+}
+.bbsListTbl td:nth-child(2) {
+  text-align: left;
+}
+.bbsListTbl th,
+.bbsListTbl td {
+  padding: 10px;
+  box-sizing: border-box;
+  height: 45px;
+}
+.pagination {
+  padding: 40px 0 0; 
+}
+.pagination a.pbtn {
+  display: inline-block;
+  padding: 7px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0;
+}
+.pagination a {
+  display: inline-block;
+}
+.pagination a .currentpage {
+  border-radius: 3px;
+  background: #384d75;
+  color: #fff;
+}
+.pagination a .pagenum {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* //게시판리스트 본문영역 */
 </style>
 <script>
 $(document).ready(function() {
-	
+	//라이브러리 사용안하고, 오리지널 j쿼리로 만드는 유효성(아래)
+	$("#seach_form").submit(function(){
+		var search_keyword = $("input[name=search_keyword]").val();
+		if(search_keyword == ""){
+			alert("검색어는 빈 값으로 검색할 수 없습니다.");
+			return false; //조건이 맞으면 전송 중지.
+		}
+
+	});
 });
 </script>
+
 </head>
 <body>
 
@@ -86,6 +244,7 @@ $(document).ready(function() {
 	<!-- //헤더상단메뉴영역영역 -->
 	
 	<!-- 메인콘텐츠영역 -->
+	
 	<div id="container">
 		<!-- 메인상단위치표시영역 -->
 		<div class="location_area customer">
@@ -103,11 +262,11 @@ $(document).ready(function() {
 		<!-- 메인본문영역 -->
 		<div class="bodytext_area box_inner">
 			<!-- 검색폼영역 -->
-			<form action="#" class="minisrch_form">
+			<form id="search_form" name="search_form" method="POST" action="board_list.html" class="minisrch_form">
 				<fieldset>
 					<legend>검색</legend>
-					<input type="text" class="tbox" title="검색어를 입력해주세요" placeholder="검색어를 입력해주세요">
-					<a href="javascript:;" class="btn_srch">검색</a>
+					<input name="search_keyword" type="text" class="tbox" title="검색어를 입력해주세요" placeholder="검색어를 입력해주세요">
+					<button class="btn_srch">검색</button>
 				</fieldset>
 			</form>
 			<!-- //검색폼영역 -->
