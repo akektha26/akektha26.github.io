@@ -6,6 +6,7 @@
 
 #### 20201104(수)
 - 메인페이지 로고와 슬라이드(모바일용/pc용) 이미지교체
+- placeholder: -ms-input-placeholder 속성
 - 테이블 display:none -> block
 - 테이블 display:none -> table-cell
 

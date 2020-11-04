@@ -58,10 +58,10 @@ header {
 }
 .header_area h1 a {
 	display: inline-block;
-	width: 150px;
+	width: 100px;
 	height: 80px;
-	background: url(../img/main_logo.png) no-repeat;
-	background-size: 150px 40px !important;
+	background: url(../img/top_logo.png) no-repeat;
+	background-size: 60px 60px !important;
 	background-position: center center !important;
 	text-indent: -9999px;
 	overflow: hidden;
@@ -181,7 +181,7 @@ header {
 .main_rolling_pc {display: none;}
 /* 모바일슬라이드영역 */
 .main_rolling_mobile {display:block;}
-.swiper-slide img {width: 100%;}
+.swiper-slide img {width: 100%; height: 250px;}
 .swiper-pagination-bullet {
 	width: 5px !important; height: 5px !important;
 	margin: 0 3px !important;
