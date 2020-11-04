@@ -45,15 +45,18 @@ function play_w(directw) { //다이렉트 좌우 슬라이드방향
 //여기서 함수 진입(play_w함수명을 호출해서 실행) 됩니다.(아래)
 var wwslidingAuto = setTimeout("play_w('right')", 3000);//6초후에 play_w함수를 실행.
 //es5버전용
-/*
+
 var wwrollplayhide = setTimeout(function(){
     $(".rollplay").css("display", "none");
 },3000);
-*/
+
 //es7버전용(람다식=애로우화살표함수사용)
+//윈7 에로우함수 지원안함
+/*
 var wwrollplayhide = setTimeout(() =>{
     $(".rollplay").css("display", "none");
 },3000);
+*/
 
 $(document).ready(function(){
     //$(".rollplay").css("display","none");
