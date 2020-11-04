@@ -257,10 +257,16 @@ input::placeholder {
 	padding: 10px;
 	font-size: 15px;
 	letter-spacing: -1px;
-	color: #444;
+	color: #666;
 	border: none;
 }
 .appForm textarea::placeholder {
+	color: #999;
+}
+textarea:-ms-input-placeholder{
+	color: #999;
+}
+input:-ms-input-placeholder{
 	color: #999;
 }
 .btn_baseColor {
