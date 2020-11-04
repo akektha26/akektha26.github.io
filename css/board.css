@@ -161,24 +161,24 @@ input::placeholder {
 @media all and (min-width: 801px) {
 /* 태블릿 + PC용 */
 .bbsListTbl th:nth-child(1) {
-	display: block;
+	display: table-cell; 
 	margin-top: 7px;
 }
 .bbsListTbl th:nth-child(2) {
 	width: 60%;
 }
 .bbsListTbl th:nth-child(3) {
-	display: block;
+	display: table-cell;
 	margin-top: 7px;
 }
 .bbsListTbl th:nth-child(4) {
 	width: 20%;
 }
 .bbsListTbl td:nth-child(1) {
-	display: block;
+	display: table-cell;
 }
 .bbsListTbl td:nth-child(3) {
-	display: block;
+	display: table-cell;
 }
 .btn_baseColor {
 	width: 125px;

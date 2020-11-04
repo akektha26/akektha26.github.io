@@ -4,6 +4,10 @@
 - 파이어폭스 개발자도구의 스타일 탭사용
 - 기존 PC용 > 태블릿용 > 모바일용 CSS작업순서를 [모바일용 > 태블릿용 > PC용] 으로 변경작업
 
+#### 20201104(수)
+- 테이블 display:none -> block
+- 테이블 display:none -> table-cell
+
 #### 20201103(화) 
 - 시만텍 웹: 의미있는 태그사용 == html5사용
 - header, footer, article, aside 웹문서에 의미있는 영역 지정.
