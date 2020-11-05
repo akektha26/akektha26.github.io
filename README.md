@@ -5,6 +5,7 @@
 - 기존 PC용 > 태블릿용 > 모바일용 CSS작업순서를 [모바일용 > 태블릿용 > PC용] 으로 변경작업
 
 #### 20201104(수)
+- input 입력태그: type[text/password/radio/checkbox ]
 - 메인페이지 로고와 슬라이드(모바일용/pc용) 이미지교체
 - placeholder: -ms-input-placeholder 속성
 - 테이블 display:none -> block

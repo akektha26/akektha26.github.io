@@ -197,7 +197,7 @@ input::placeholder {
 	font-size: 0px;
 }
 .pilsoo_item::before {
-	top:1px;
+	/* top: 1px; */
 	content: '*';
 	display: inline-block;
 	position: absolute;
@@ -217,7 +217,7 @@ input::placeholder {
 }
 .app_list {
 	padding: 10px 0;
-	border-bottom: 1px solid #ccc;
+	/* border-bottom: 1px solid #ccc; */
 }
 .app_list li {
 	position: relative;
@@ -226,7 +226,7 @@ input::placeholder {
 }
 .app_list li .tit_lbl {
 	float: none;
-	line-height: 30px;
+	line-height: 50px;
 	position: relative;
 	box-sizing: border-box;
 	padding-left: 20px;
@@ -362,11 +362,11 @@ input:-ms-input-placeholder{
 	float: left;
 	width: 100px;
 	padding: 0 0 0 50px;
-	background:url(./img/ico_nearNext.png) no-repeat 12px 50%;
+	background:url(../img/ico_nearNext.png) no-repeat 12px 50%;
 	font-size: 15px;
 }
 .near_list li h4.next {
-	background-image: url(./img/ico_nearPrev.png);
+	background-image: url(../img/ico_nearPrev.png);
 }
 /* //태블릿+PC용 게시판뷰 */
 }
